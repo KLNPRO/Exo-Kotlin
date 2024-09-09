@@ -1,3 +1,5 @@
 fun main() {
-    // write your code here
+    val nombre1 = 12
+    val nombre2 = 34
+    println("$nombre1 plus $nombre2 est egal ${nombre1+nombre2}")
 }
