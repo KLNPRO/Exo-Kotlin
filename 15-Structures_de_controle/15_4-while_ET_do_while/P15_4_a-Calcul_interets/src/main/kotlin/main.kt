@@ -10,7 +10,10 @@ fun findYears(depo: Double): Int{
     val max = 700000
     var years = 0
     //
-    // implement the while loop here
+    while (deposit<=max){
+        deposit=deposit*1.075
+        years++
+    }
     //
     return years
 }
