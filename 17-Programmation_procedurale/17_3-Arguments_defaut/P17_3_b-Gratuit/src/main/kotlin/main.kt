@@ -1,5 +1,6 @@
 fun tip(bill: Int, percentage: Int): Int {
-    // TODO
+    return
+
 }
 
 fun main() {
