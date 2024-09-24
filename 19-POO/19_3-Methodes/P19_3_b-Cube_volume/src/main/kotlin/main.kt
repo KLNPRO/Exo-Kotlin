@@ -1,7 +1,12 @@
 class Box(var height: Double, var width: Double, var length: Double) {
 
-    // write the getVolume method here
+    fun getVolume(): Double {
+        var Volume: Double = height * width * length
+
+        return Volume
+    }
 }
+
 
 
 fun main() {
