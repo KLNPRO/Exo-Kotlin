@@ -1,9 +1,15 @@
-class Car(val make: String, val year: Int) {
-
+class Car(val make: String, val year: Int,) {
     var speed: Int = 0
+    fun accelerate(){
+        speed+= 5
+    }
+    fun decelerate(){
+        speed-=5
+    }
 
-    // write the methods here
-}
+
+    }
+
 
 fun main() {
     val myCar = Car("Mustang", 1976)
